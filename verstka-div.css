@@ -1,0 +1,62 @@
+body
+{
+ background: url("img/bg.jpg");
+}
+.MainFrame
+{
+ /* border: 1px solid black;*/
+ width: 900px;
+ margin: 20px auto 20px; /*сверху, слева/справа, снизу*/
+}
+
+.header
+{
+/* border: 1px solid red;*/
+ overflow: hidden;
+}
+
+.LeftMenu
+{
+/* border: 1px solid blue;*/
+ float: left;
+ overflow: hidden;
+ width: 100px;
+ padding: 20px;
+}
+
+.WorkArea
+{
+/* border: 1px solid lightgreen;*/
+ overflow: hidden;
+ padding: 20px
+}
+
+.footer
+{
+/* border: 1px solid red;*/
+ overflow: hidden;
+ text-align: center;
+}
+ 
+.menu
+{
+ border: 1px solid blue;
+ padding: 5px;
+ text-decoration: none;
+ color: blue;
+}
+
+.menu:hover
+{
+ color: red;
+ background-color: gold;
+}
+
+#logo
+{
+ position: absolute;
+ top: 30px;
+ left: 2500px;
+}
+ 
+
